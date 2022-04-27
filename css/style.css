@@ -1,0 +1,115 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	list-style: none;
+}
+html,body{
+	margin:0px;
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	background:#000;
+	
+}
+body{
+	width: 100%;
+	background-image: url(../images/制作图片/pic.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#canvas{
+	width:100%;
+	height:100%;
+}
+ul {
+	position: relative;
+	-ms-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-webkit-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	width: 200px;
+	height: 200px;
+	margin: 100px auto;
+}
+ul:hover {
+	-ms-animation: show 5s linear infinite;
+	-moz-animation: show 5s linear infinite;
+	-webkit-animation: show 5s linear infinite;
+	-o-animation: show 5s linear infinite;
+	animation: show 5s linear infinite;
+}
+@keyframes show {
+	0% {
+		-ms-transform: rotateX(0) rotateY(0);
+		-moz-transform: rotateX(0) rotateY(0);
+		-webkit-transform: rotateX(0) rotateY(0);
+		-o-transform: rotateX(0) rotateY(0);
+		transform: rotateX(0) rotateY(0);
+	}
+	100% {
+		-ms-transform: rotateX(360deg) rotateY(360deg);
+		-moz-transform: rotateX(360deg) rotateY(360deg);
+		-webkit-transform: rotateX(360deg) rotateY(360deg);
+		-o-transform: rotateX(360deg) rotateY(360deg);
+		transform: rotateX(360deg) rotateY(360deg);
+		-ms-
+	}
+}
+ul li {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 200px;
+	height: 200px;
+	background: url(../images/制作图片/xy1.png);
+}
+ul li:nth-of-type(1) {
+	background: url(../images/制作图片/xy6.png);
+	-ms-transform: rotateY(90deg) translateZ(100px);
+	-moz-transform: rotateY(90deg) translateZ(100px);
+	-webkit-transform: rotateY(90deg) translateZ(100px);
+	-o-transform: rotateY(90deg) translateZ(100px);
+	transform: rotateY(90deg) translateZ(100px);
+}
+ul li:nth-of-type(2) {
+	background: url(../images/制作图片/xy5.png);
+	-ms-transform: rotateY(-90deg) translateZ(100px);
+	-moz-transform: rotateY(-90deg) translateZ(100px);
+	-webkit-transform: rotateY(-90deg) translateZ(100px);
+	-o-transform: rotateY(-90deg) translateZ(100px);
+	transform: rotateY(-90deg) translateZ(100px);
+}
+ul li:nth-of-type(3) {
+	background: url(../images/制作图片/xy4.png);
+	-ms-transform: rotateX(90deg) translateZ(100px);
+	-moz-transform: rotateX(90deg) translateZ(100px);
+	-webkit-transform: rotateX(90deg) translateZ(100px);
+	-o-transform: rotateX(90deg) translateZ(100px);
+	transform: rotateX(90deg) translateZ(100px);
+}
+ul li:nth-of-type(4) {
+	background: url(../images/制作图片/xy3.png);
+	-ms-transform: rotateX(-90deg) translateZ(100px);
+	-moz-transform: rotateX(-90deg) translateZ(100px);
+	-webkit-transform: rotateX(-90deg) translateZ(100px);
+	-o-transform: rotateX(-90deg) translateZ(100px);
+	transform: rotateX(-90deg) translateZ(100px);
+}
+ul li:nth-of-type(5) {
+	background: url(../images/制作图片/xy1.png);
+	-ms-transform: translateZ(100px);
+	-moz-transform: translateZ(100px);
+	-webkit-transform: translateZ(100px);
+	-o-transform: translateZ(100px);
+	transform: translateZ(100px);
+}
+ul li:nth-of-type(6) {
+	background: url(../images/制作图片/xy2.png);
+	-ms-transform: translateZ(-100px);
+	-moz-transform: translateZ(-100px);
+	-webkit-transform: translateZ(-100px);
+	-o-transform: translateZ(-100px);
+	transform: translateZ(-100px);
+}

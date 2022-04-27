@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>xy</title>
+	<script src="js/jquery-1.11.1.js"></script>
+	<link rel="stylesheet" href="css/style.css">
+<script>
+	$(function(){	
+		$('ul').hover(function() {
+			$('audio').get(0).play();
+			$('audio').get(0).currentTime=0;
+
+		}, function() {
+			$('audio').get(0).pause();
+		});
+	})
+</script>
+</head>
+<body>
+<!--<audio src="mp3/Valentine - A Little Story.mp3" ></audio>-->
+<audio src="mp3/所念皆星河2.mp3"></audio>
+<ul>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+</ul>
+</body>
+</html>
